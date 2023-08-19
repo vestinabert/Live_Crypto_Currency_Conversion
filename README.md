@@ -4,8 +4,7 @@
 2. [Usage](#usage)
 3. [Features](#features)
 5. [Technologies Used](#technologies)
-6. [Data Model Description](#datamodel)
-7. [UI](#ui)
+6. [UI](#ui)
 
 ## The project's brief description: <a name="introduction"></a>
 The Live Crypto Currency Conversion Tool is a Ruby program that allows users to calculate real-time cryptocurrency prices in both USD and EUR. This tool provides a simple way to monitor the value of various cryptocurrencies in two commonly used currencies, with all output displayed in the terminal.
