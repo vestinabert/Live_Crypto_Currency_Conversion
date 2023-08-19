@@ -7,5 +7,9 @@ def menu
         puts "q) Quit"
         print "Action: "
         choice = gets.chomp
+
+        break unless choice != 'q'
     end
 end
+
+menu()
