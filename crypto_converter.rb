@@ -3,7 +3,7 @@ require './manager'
 def menu
     manager = Manager.new
     loop do
-        puts "Cryptocurrency Converter ".center(50, "#")
+        puts " Cryptocurrency Converter ".center(50, "#")
         puts "a) Convert to USD"
         puts "b) Convert to EUR"
         puts "q) Quit"
@@ -23,7 +23,7 @@ def menu
             if coin_list.include? symbol
                 result = manager.calculate(amount, symbol, "USD")
                 puts "-".center(50, "-")
-                puts "#{amount} #{symbol} = #{result} USD".center(50, "-")
+                puts " #{amount} #{symbol} = #{result} USD ".center(50, "-")
                 puts "-".center(50, "-")
             else
                 puts "#{symbol} is not available.".center(50, "*")
