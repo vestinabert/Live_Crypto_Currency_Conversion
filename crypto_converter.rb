@@ -1,3 +1,5 @@
+require './manager'
+
 def menu
 
     loop do
